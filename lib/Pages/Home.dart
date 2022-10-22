@@ -1,0 +1,30 @@
+import 'package:flutter/material.dart';
+
+class MyHomePage extends StatelessWidget {
+  const MyHomePage({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        actions: [
+          TextButton(
+            onPressed: () {},
+            child: Text(
+              "Home",
+            ),
+          )
+        ],
+      ),
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            Container(
+              child: Row(),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
